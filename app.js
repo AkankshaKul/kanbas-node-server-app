@@ -9,7 +9,7 @@ import session from "express-session";
 
 import mongoose from "mongoose";
 import UserRoutes from "./users/routes.js";
-mongoose.connect("mongodb://127.0.0.1:27017/kanbas");
+mongoose.connect("mongodb+srv://kulkarniakan:webdevpassword@cluster0.rvvctq0.mongodb.net/?retryWrites=true&w=majority");
 
 const app = express();
 app.use(
