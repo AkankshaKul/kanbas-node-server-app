@@ -15,7 +15,7 @@ const app = express();
 app.use(
     cors({
         credentials: true,
-        origin: process.env.FRONTEND_URL || "https://a6--regal-marigold-059024.netlify.app/"
+        origin: process.env.FRONTEND_URL || "https://a6--regal-marigold-059024.netlify.app"
     })
 );
 const sessionOptions = {
